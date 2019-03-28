@@ -1,6 +1,9 @@
 body {
 	padding-top: 56px;
 }
+.navbar{
+background-color:#000000;
+}
 
 .navbar-brand{
 	padding-bottom: 0px;
