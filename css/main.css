@@ -1,0 +1,27 @@
+body {
+	padding-top: 56px;
+}
+
+.navbar-brand{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.logo-navbar{
+	height: 50px;
+}
+.navbar{
+	text-transform:uppercase;
+}
+
+
+
+h1{
+	text-transform: uppercase;
+	text-align:center;
+	margin: 10px;
+	font-weight:300;
+}
+
+#welcome{
+	text-align:center;
+}
