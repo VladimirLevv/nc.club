@@ -1,0 +1,65 @@
+$(document).ready(function(){
+    $.fn.equivalent = function (){
+            //запишем значение jQuery выборки к которой будет применена эта функция в локальную переменную $blocks
+        var $blocks = $(this),
+            //примем за максимальную высоту - высоту первого блока в выборке и запишем ее в переменную maxH
+            maxH    = $blocks.eq(0).outerHeight(); 
+
+        //делаем сравнение высоты каждого блока с максимальной
+        $blocks.each(function(){
+            maxH = ( $(this).outerHeight() > maxH ) ? $(this).outerHeight() : maxH;
+        });
+
+        //устанавливаем найденное максимальное значение высоты для каждого блока jQuery выборки
+        $blocks.outerHeight(maxH); 
+    }
+
+    //применяем нашу функцию в элементам jQuery выборки - $('.nav')
+    $('.section-bonuses-item h4').equivalent(); 
+});
+
+window.onload = function() { // после загрузки страницы
+
+    var scrollUp = document.getElementById('scrollup'); // найти элемент
+
+    scrollUp.onclick = function() { //обработка клика
+        window.scrollTo(0,0);
+    };
+
+// show button
+
+    window.onscroll = function () { // при скролле показывать и прятать блок
+        if ( window.pageYOffset > 0 ) {
+            scrollUp.style.display = 'block';
+        } else {
+            scrollUp.style.display = 'none';
+        }
+    };
+};
+
+// popup 
+
+var openPopup = document.querySelector('#popupBonus');
+
+if(openPopup){
+    var casinoPopup = document.querySelector('.popup__casino'),
+        closePopup = document.querySelectorAll('.close'),
+        overlyBlock = document.querySelector('.site-overlay');
+
+    openPopup.addEventListener('click', function(){
+        casinoPopup.style.display = 'block';
+        overlyBlock.style.display = 'block';
+    });
+
+    closePopup.forEach( function(el) {
+        el.addEventListener('click', function(){
+            casinoPopup.style.display = 'none';
+            overlyBlock.style.display = 'none';
+        })
+    });
+
+    overlyBlock.addEventListener('click', function(){
+        casinoPopup.style.display = 'none';
+        overlyBlock.style.display = 'none';
+    })
+}
