@@ -1369,7 +1369,7 @@ html, body {
   color:#2e2b34;
 }
 body.body_main {
-  background: url("img/bg_body.png") repeat-x, linear-gradient(to top, #121320, #22233b);
+  background: url("../img/bg_body.png") repeat-x, linear-gradient(to top, #121320, #22233b);
   min-height: 100%;
 }
 .container-fluid {
@@ -1384,7 +1384,7 @@ body.body_main {
   font-size:16px;
 }
 header {
-  background: url("img/bg_hd.png") no-repeat;
+  background: url("../img/bg_hd.png") no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -1459,21 +1459,21 @@ header {
   height:14px;
   top:calc(50% - 7px);
   left:calc(50% - 8px);
-  background: url("img/sprite.png") no-repeat left -17px top 0;
+  background: url("../img/sprite.png") no-repeat left -17px top 0;
 }
 .smm-block .promo-smm .tw-item {
   width:16px; 
   height:14px;position: absolute;
   top:calc(50% - 7px);
   left:calc(50% - 8px);
-  background: url("img/sprite.png") no-repeat left -17px top 0;
+  background: url("../img/sprite.png") no-repeat left -17px top 0;
 }
 .smm-block .promo-smm .p-item {
   width:16px; 
   height:14px;position: absolute;
   top:calc(50% - 7px); 
   left:calc(50% - 8px);
-  background: url("img/sprite.png") no-repeat left -0px top 0;
+  background: url("../img/sprite.png") no-repeat left -0px top 0;
 }
 
 .smm-block .promo-smm .f-item::before {
@@ -1481,13 +1481,13 @@ header {
   height:19px;
   top:calc(50% - 9.5px);
   left:calc(50% - 5.5px);
-  background: url("img/sprite.png") no-repeat left 0 top 0;
+  background: url("../img/sprite.png") no-repeat left 0 top 0;
 }
 .smm-block .promo-smm .tw-item:hover::before {
-  background: url("img/sprite.png") no-repeat left -38px top 0;
+  background: url("../img/sprite.png") no-repeat left -38px top 0;
 }
 .smm-block .promo-smm .f-item:hover::before {
-  background: url("img/sprite.png") no-repeat left -55px top 0;
+  background: url("../img/sprite.png") no-repeat left -55px top 0;
 }
 .bonus p {
   color:#fff;
@@ -1516,7 +1516,7 @@ header {
   width:65px;
   height:65px;
   border-radius:100%;
-  background: url("img/sprite.png") no-repeat left -65px top 0;
+  background: url("../img/sprite.png") no-repeat left -65px top 0;
   right:0px;
   top:calc(50% - 32.5px);
 }
@@ -1580,7 +1580,7 @@ header {
   right:0;
   width:14px;
   height:14px;
-  background: url("img/sprite.png") no-repeat left -196px top 0;
+  background: url("../img/sprite.png") no-repeat left -196px top 0;
   opacity:1;
 }
 .site-overlay {
@@ -1640,13 +1640,13 @@ header {
   margin-right:3px;
 }
 .rating li.star {
-  background: url("img/sprite.png") no-repeat left -174px top 0;
+  background: url("../img/sprite.png") no-repeat left -174px top 0;
 }
 .rating li.half {
-  background: url("img/sprite.png") no-repeat left -152px top 0;
+  background: url("../img/sprite.png") no-repeat left -152px top 0;
 }
 .rating li.active {
-  background: url("img/sprite.png") no-repeat left -130px top 0;
+  background: url("../img/sprite.png") no-repeat left -130px top 0;
 }
 .rating li:last-child{
   margin-right:0px;
@@ -2072,28 +2072,28 @@ padding:18px 10px;
   height:11px;
   left:calc(50% - 24px);
   top:calc(50% - 5.5px);
-  background: url("img/sprite.png") no-repeat left -215px top 0;
+  background: url("../img/sprite.png") no-repeat left -215px top 0;
 }
 .table.casino .tr:nth-child(2) .td.td__auszahlung .pay__ent::before {
   width:48px;
   height:11px;
   left:calc(50% - 24px);
   top:calc(50% - 5.5px);
-  background: url("img/sprite.png") no-repeat left -265px top 0;
+  background: url("../img/sprite.png") no-repeat left -265px top 0;
 }
 .table.casino .tr:nth-child(2) .td.td__auszahlung .pay__skrill::before {
   width:36px;
   height:12px;
   left:calc(50% - 18px);
   top:calc(50% - 6px);
-  background: url("img/sprite.png") no-repeat left -316px top 0;
+  background: url("../img/sprite.png") no-repeat left -316px top 0;
 }
 .table.casino .tr:nth-child(2) .td.td__auszahlung .pay__net::before {
   width:44px;
   height:8px;
   left:calc(50% - 22px);
   top:calc(50% - 4px);
-  background: url("img/sprite.png") no-repeat left -356px top 0;
+  background: url("../img/sprite.png") no-repeat left -356px top 0;
 }
 .table.casino .td.td__handy {
   position: relative;
@@ -2105,10 +2105,10 @@ padding:18px 10px;
   height:40px;
   left:calc(50% - 20px);
   top:calc(50% - 20px);
-  background: url("img/sprite.png") no-repeat left -706px top 0;
+  background: url("../img/sprite.png") no-repeat left -706px top 0;
 }
 .table.casino .tr:nth-child(2) .td.td__handy::before {
-  background: url("img/sprite.png") no-repeat left -405px top 0;
+  background: url("../img/sprite.png") no-repeat left -405px top 0;
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     .table.casino .td.td__handy::before {
@@ -2121,84 +2121,84 @@ padding:18px 10px;
   height:10px;
   left:calc(50% - 17px);
   top:calc(50% - 5px);
-  background: url("img/sprite.png") no-repeat left -451px top 0;
+  background: url("../img/sprite.png") no-repeat left -451px top 0;
 }
 .table.casino .td.td__auszahlung .pay__mc::before {
   width:24px;
   height:16px;
   left:calc(50% - 12px);
   top:calc(50% - 8px);
-  background: url("img/sprite.png") no-repeat left -488px top 0;
+  background: url("../img/sprite.png") no-repeat left -488px top 0;
 }
 .table.casino .td.td__auszahlung .pay__eco::before {
   width:48px;
   height:11px;
   left:calc(50% - 24px);
   top:calc(50% - 5.5px);
-  background: url("img/sprite.png") no-repeat left -517px top 0;
+  background: url("../img/sprite.png") no-repeat left -517px top 0;
 }
 .table.casino .td.td__auszahlung .pay__ent::before {
   width:48px;
   height:11px;
   left:calc(50% - 24px);
   top:calc(50% - 5.5px);
-  background: url("img/sprite.png") no-repeat left -568px top 0;
+  background: url("../img/sprite.png") no-repeat left -568px top 0;
 }
 .table.casino .td.td__auszahlung .pay__skrill::before {
   width:36px;
   height:12px;
   left:calc(50% - 18px);
   top:calc(50% - 6px);
-  background: url("img/sprite.png") no-repeat left -620px top 0;
+  background: url("../img/sprite.png") no-repeat left -620px top 0;
 }
 .table.casino .td.td__auszahlung .pay__net::before {
   width:44px;
   height:8px;
   left:calc(50% - 22px);
   top:calc(50% - 4px);
-  background: url("img/sprite.png") no-repeat left -659px top 0;
+  background: url("../img/sprite.png") no-repeat left -659px top 0;
 }
 .table.casino .td.td__auszahlung .pay__pp::before {
   width:48px;
   height:13px;
   left:calc(50% - 24px);
   top:calc(50% - 6.5px);
-  background: url("img/sprite.png") no-repeat left -751px top 0;
+  background: url("../img/sprite.png") no-repeat left -751px top 0;
 }
 .table.casino .td.td__auszahlung .pay__paycafe::before {
   width:43px;
   height:19px;
   left:calc(50% - 21.5px);
   top:calc(50% - 9.5px);
-  background: url("img/sprite.png") no-repeat left -803px top 0;
+  background: url("../img/sprite.png") no-repeat left -803px top 0;
 }
 .table.casino .td.td__auszahlung .pay__trustly::before {
   width:42px;
   height:11px;
   left:calc(50% - 21px);
   top:calc(50% - 5.5px);
-  background: url("img/sprite.png") no-repeat left -853px top 0;
+  background: url("../img/sprite.png") no-repeat left -853px top 0;
 }
 .table.casino .td.td__auszahlung .pay__giro::before {
   width:41px;
   height:17px;
   left:calc(50% - 20.5px);
   top:calc(50% - 8.5px);
-  background: url("img/sprite.png") no-repeat left -900px top 0;
+  background: url("../img/sprite.png") no-repeat left -900px top 0;
 }
 .table.casino .td.td__auszahlung .pay__sofort::before {
   width:41px;
   height:13px;
   left:calc(50% - 20.5px);
   top:calc(50% - 6.5px);
-  background: url("img/sprite.png") no-repeat left -947px top 0;
+  background: url("../img/sprite.png") no-repeat left -947px top 0;
 }
 .table.casino .td.td__auszahlung .pay__bitcoin::before {
   width:17px;
   height:22px;
   left:calc(50% - 8.5px);
   top:calc(50% - 11px);
-  background: url("img/sprite.png") no-repeat left 0px top -66px;
+  background: url("../img/sprite.png") no-repeat left 0px top -66px;
 }
 .block_left {
   float:left;
@@ -2427,7 +2427,7 @@ article p img {margin-right:40px!important;}
     content: "";
     width:15px;
     height:12px;
-    background: url("img/sprite.png") no-repeat left -21px top -66px;
+    background: url("../img/sprite.png") no-repeat left -21px top -66px;
     left: -26px;
     top: 10px;
 }
@@ -2548,22 +2548,22 @@ footer .container-fluid {
 .protection__comodo {
   width:89px;
   height:26px;
-  background: url("img/sprite.png") no-repeat left -37px top -66px;
+  background: url("../img/sprite.png") no-repeat left -37px top -66px;
 }
 .protection__vecogra {
   width:89px;
   height:26px;
-  background: url("img/sprite.png") no-repeat left -138px top -66px;
+  background: url("../img/sprite.png") no-repeat left -138px top -66px;
 }
 .protection__camecare {
   width:30px;
   height:34px;
-  background: url("img/sprite.png") no-repeat left -235px top -66px;
+  background: url("../img/sprite.png") no-repeat left -235px top -66px;
 }
 .protection__18 {
   width:34px;
   height:34px;
-  background: url("img/sprite.png") no-repeat left -274px top -65px;
+  background: url("../img/sprite.png") no-repeat left -274px top -65px;
 }
 .footer_bottom {
   color:#fff;
@@ -2829,7 +2829,7 @@ font-weight: 900;
   content: "";
   width:52px;
   height:53px;
-  background: url("img/sprite.png") no-repeat left -315px top -64px;
+  background: url("../img/sprite.png") no-repeat left -315px top -64px;
   right:25px;
   top:calc(50% - 26.5px);
 }
@@ -2852,7 +2852,7 @@ font-weight: 900;
   height:18px;
   top:calc(50% - 9px);
   left:calc(50% - 7.5px);
-  background: url("img/sprite.png") no-repeat left 0 top -25px;
+  background: url("../img/sprite.png") no-repeat left 0 top -25px;
 }
 .smm-block .promo-smm .p-item1:hover {
   background: #f7d357;
@@ -2863,7 +2863,7 @@ font-weight: 900;
   height:18px;
   top:calc(50% - 9px);
   left:calc(50% - 7.5px);
-  background: url("img/sprite.png") no-repeat left -21px top -25px;
+  background: url("../img/sprite.png") no-repeat left -21px top -25px;
 }
 
 
@@ -2993,7 +2993,7 @@ article a:not([class]):hover {
   content: "";
   width: 15px;
   height: 12px;
-  background: url("../img/sprite.png") no-repeat left -21px top -66px;
+  background: url("../../img/sprite.png") no-repeat left -21px top -66px;
   left: 3px;
   top: 5px;
 }
@@ -3332,49 +3332,49 @@ article a:not([class]):hover {
   height:38px;
   left:calc(50% - 18px);
   top:calc(50% - 19px);
-  background: url("../img/sprite.png") no-repeat left 0 top -132px;
+  background: url("../../img/sprite.png") no-repeat left 0 top -132px;
 }
 .casino__info .game__roulette::before {
   width:40px;
   height:40px;
   left:calc(50% - 20px);
   top:calc(50% - 20px);
-  background: url("../img/sprite.png") no-repeat left -47px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -47px top -132px;
 }
 .casino__info .game__blackjack::before {
   width:34px;
   height:38px;
   left:calc(50% - 17px);
   top:calc(50% - 19px);
-  background: url("../img/sprite.png") no-repeat left -96px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -96px top -132px;
 }
 .casino__info .game__videopoker::before {
   width:40px;
   height:40px;
   left:calc(50% - 20px);
   top:calc(50% - 20px);
-  background: url("../img/sprite.png") no-repeat left -143px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -143px top -132px;
 }
 .casino__info .game__bakkarat::before {
   width:44px;
   height:44px;
   left:calc(50% - 22px);
   top:calc(50% - 22px);
-  background: url("../img/sprite.png") no-repeat left -197px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -197px top -132px;
 }
 .casino__info .game__würfelspiel::before {
   width:40px;
   height:38px;
   left:calc(50% - 20px);
   top:calc(50% - 19px);
-  background: url("../img/sprite.png") no-repeat left -252px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -252px top -132px;
 }
 .casino__info .game__glücksrad::before {
   width:40px;
   height:40px;
   left:calc(50% - 20px);
   top:calc(50% - 20px);
-  background: url("../img/sprite.png") no-repeat left -305px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -305px top -132px;
 }
 .casino__info .game__item:hover::before, .casino__info .game__item:hover::after {
   content: none;
@@ -3405,7 +3405,7 @@ article a:not([class]):hover {
   height:16px;
   left:0;
   top:calc(50% - 8px);
-  background: url("../img/sprite.png") no-repeat left -360px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -360px top -132px;
 }
 .section .short__block {
   padding-left: 0;
@@ -3456,19 +3456,19 @@ article a:not([class]):hover {
   content:none;
 }
 .social .social__face {
-  background: url("../img/sprite.png") no-repeat left -384px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -384px top -132px;
 }
 .social .social__tw {
-  background: url("../img/sprite.png") no-repeat left -420px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -420px top -132px;
 }
 .social .social__inst {
-  background: url("../img/sprite.png") no-repeat left -455px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -455px top -132px;
 }
 .social .social__pint {
-  background: url("../img/sprite.png") no-repeat left -490px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -490px top -132px;
 }
 .social .social__app {
-  background: url("../img/sprite.png") no-repeat left -525px top -132px;
+  background: url("../../img/sprite.png") no-repeat left -525px top -132px;
 }
 .section-best__review {
   padding-bottom: 45px;
